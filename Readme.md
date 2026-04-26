@@ -19,7 +19,7 @@ ddsi-tp-template/
 ├── pom.xml                    # POM padre: versiones y dependencyManagement
 ├── common-lib/                # Librería compartida (JAR), importada por los servicios
 ├── donaciones-service/        # Servicio de donaciones — puerto 8080
-└── notificaciones-service/    # Cervicio de notificaciones — puerto 8081
+└── notificaciones-service/    # Servicio de notificaciones — puerto 8081
 ```
 
 Cada servicio es una aplicación Spring Boot independiente que declara `common-lib` como dependencia local del reactor.
